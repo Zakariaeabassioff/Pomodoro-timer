@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <div class="timer_container">
+        <div class="ring">
+            <svg width="518" height="518" viewBox="0 0 518 518">
+                <circle stroke-width="9px" cx="259" cy="259" r="254" />
+            </svg>
+        </div>
+        <div class="timer">
+            <div class="time">
+                <div class="mins">
+                    <input type="text" name="mins" value="15">
+                </div>
+                <div class="points">:</div>
+                <div class="secs">
+                    <input type="text" name="secs" value="00">
+                </div>
+            </div>
+            <button class="start">start</button>
+            <button class="settings">
+                <img src="./images/gear.svg" alt="settings button">
+            </button>
+        </div>
+    </div>
+</body>
+</html>
